@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Contact Me </h1>
+    <nav>
+      <a href="tierlist.html">Tier list</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Share Your car Opinions!</h2>
+    <form>
+        <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Joshua Stone" required>
+      </div>
+     <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="username@gmail.com" required>
+        </div>
+        <div>
+      <label for="favorite">Favorite car brand:</label>
+      <input type="text" id="favorite" name="favorite" placeholder="Honda">
+        </div>
+        <div>
+        <p>Which tier list level do you agree with most?</p>
+      <label><input type="radio" name="tier" value="S"> S-Tier</label>
+      <label><input type="radio" name="tier" value="A"> A-Tier</label>
+      <label><input type="radio" name="tier" value="B"> B-Tier</label>
+      <label><input type="radio" name="tier" value="c"> C-Tier</label>
+      <label><input type="radio" name="tier" value="D"> D-Tier</label>
+     </div>
+
+     <div>
+      <p>What tiers do you disagree with</p>
+      <label><input type="checkbox" name="tier" value="S"> S-Tier</label>
+      <label><input type="checkbox" name="tier" value="A"> A-Tier</label>
+      <label><input type="checkbox" name="tier" value="B"> B-Tier</label>
+      <label><input type="checkbox" name="tier" value="C"> C-Tier</label>
+      <label><input type="checkbox" name="tier" value="D"> D-Tier</label>
+      </div>
+
+     <div>
+      <label for="rating">Rate my car ranking </label>
+      <select id="rating" name="rating">
+        <option value="excellent">Excellent</option>
+        <option value="good">Good</option>
+        <option value="okay">Okay</option>
+        <option value="needs work">Needs work</option>
+        <option value="bad">Bad</option>
+      </select>
+      </div>
+
+      <div>
+       <label for="comments">Comments:</label><br>
+       <textarea id="comments" name="comments" rows="5" cols="30" placeholder="write something"></textarea>
+      </div>
+
+      <input type="submit">
+    </form>
+  </main>
+</body>
+</html>
