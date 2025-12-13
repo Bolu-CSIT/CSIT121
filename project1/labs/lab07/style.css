@@ -1,0 +1,45 @@
+
+body {
+  font-family: Arial, sans-serif; 
+  background-color: beige;       
+  color: brown;                     
+  margin: 20px;
+}
+
+
+header {
+  background-color: #0074D9;       
+  color: white;                    
+  text-align: center;             
+  border-radius: 10px; 
+}           
+
+
+nav a {
+  color: white;                              
+  margin: 0 10px;                 
+}
+
+table {                    
+  border-collapse: collapse;       
+  margin: 25px 0;
+  min-width: 400px ;
+}
+
+
+th, td {
+  border: 1px solid gray;         
+  padding: 10px;                   
+  text-align: center;             
+}
+
+    
+thead tr{
+  background-color: red;
+  color: white;
+}
+
+
+
+
+
